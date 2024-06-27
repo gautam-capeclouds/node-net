@@ -1,18 +1,16 @@
 {
-  "name": "node-net",
+  "name": "hello-gautam",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "netlify-lambda build functions",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "netlify-lambda build functions"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "express": "^4.19.2",
-    "serverless-http": "^3.2.0"
+    "express": "^4.17.1",
+    "serverless-http": "^2.7.0"
+  },
+  "devDependencies": {
+    "netlify-lambda": "^2.0.0"
   }
 }
