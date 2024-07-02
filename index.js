@@ -34,7 +34,7 @@ app.use('/api/auth', authRoutes);
 // app.use('/api', clientRoutes);
 // // app.use('/check', gautamRoutes);
 app.get('/gau', (req, res) => {
-  res.send('Hello Gautam');
+  res.send('Hello Gautam check');
 });
 
 
