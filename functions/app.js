@@ -7,7 +7,7 @@ const cors = require('cors');
 // const jwt = require('jsonwebtoken');
 // const cloudinary = require('../utils/cloudinary');
 
-const authRoutes = require('./routes/authRoutes');
+// const authRoutes = require('./routes/authRoutes');
 // const categoryRoutes = require('../routes/categoryRoutes');
 // const userRoutes = require('../routes/userRoutes');
 // const serviceRoutes = require('../routes/serviceRoutes');
@@ -27,7 +27,7 @@ mongoose.connect(process.env.MONGO_URI, {
 }).then(() => console.log('MongoDB connected'))
   .catch((err) => console.log(err));
 
-app.use('/api/auth', authRoutes);
+// app.use('/api/auth', authRoutes);
 // app.use('/api/categories', categoryRoutes);
 // app.use('/api/users', userRoutes);
 // app.use('/api/services', serviceRoutes);
