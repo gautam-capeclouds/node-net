@@ -13,6 +13,10 @@ const api = express();
 const router = Router();
 router.get("/hello", (req, res) => res.send("Hello World!"));
 
+app.get('/gau', (req, res) => {
+  res.send('Hello Gautam check');
+});
+
 api.use("/api/", router);
 
 export const handler = serverless(api);
