@@ -7,7 +7,7 @@ const cors = require('cors');
 // const jwt = require('jsonwebtoken');
 // const cloudinary = require('../utils/cloudinary');
 
-const authRoutes = require('./routes/authRoutes');
+const authRoutes = require('../routes/authRoutes');
 // const categoryRoutes = require('../routes/categoryRoutes');
 // const userRoutes = require('../routes/userRoutes');
 // const serviceRoutes = require('../routes/serviceRoutes');
