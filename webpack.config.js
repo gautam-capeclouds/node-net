@@ -10,7 +10,7 @@ module.exports = {
   externals: [nodeExternals()],
   output: {
     path: path.resolve(__dirname, 'functions-build'),
-    filename: 'app.js',
+    filename: 'server.js',
     libraryTarget: 'commonjs2',
   },
   module: {
