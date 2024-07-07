@@ -1,6 +1,6 @@
 [build]
   functions = "functions-build"
-  command = "npm run build"
+  command = "Cl= npm run build"
   publish = "functions-build"
 
 [[redirects]]
