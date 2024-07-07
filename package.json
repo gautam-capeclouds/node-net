@@ -1,7 +1,7 @@
 {
   "name": "hello-gautam",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "./functions/app.js",
   "scripts": {
     "build": "webpack"
   },
