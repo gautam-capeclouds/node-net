@@ -43,4 +43,5 @@ app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
 
-module.exports = serverless(app);
+// module.exports = serverless(app);
+export default app;
