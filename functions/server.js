@@ -17,6 +17,6 @@ router.get('/gau', (req, res) => {
   res.send('Hello Gautam check');
 });
 
-api.use("/api/", router);
+// api.use("/api/", router);
 
 export const handler = serverless(api);
