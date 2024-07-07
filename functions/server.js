@@ -13,7 +13,7 @@ const api = express();
 const router = Router();
 router.get("/hello", (req, res) => res.send("Hello World!"));
 
-app.get('/gau', (req, res) => {
+router.get('/gau', (req, res) => {
   res.send('Hello Gautam check');
 });
 
