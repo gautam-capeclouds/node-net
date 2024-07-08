@@ -11,7 +11,7 @@ const cors = require('cors');
 // const categoryRoutes = require('../routes/categoryRoutes');
 // const userRoutes = require('../routes/userRoutes');
 // const serviceRoutes = require('../routes/serviceRoutes');
-// const clientRoutes = require('../routes/clientRoutes');
+// const clientRoutes = require('../routes/clientRoutes');  // .
 // const gautamRoutes = require('../routes/gautamRoutes');
 
 
