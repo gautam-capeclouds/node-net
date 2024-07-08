@@ -7,6 +7,13 @@
    "config": { "includeFiles": ["dist/**"] }
   }
  ],
+ {
+  "functions": {
+    "api/*/.js": {
+      "runtime": "vercel-node"
+    }
+  }
+},
  "routes": [
   {
    "src": "/(.*)",
