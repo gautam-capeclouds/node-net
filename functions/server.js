@@ -6,7 +6,6 @@
 
 
 import express, { Router } from "express";
-import serverless from "serverless-http";
 
 const api = express();
 
@@ -17,6 +16,9 @@ router.get('/gau', (req, res) => {
   res.send('Hello Gautam check');
 });
 
-// api.use("/api/", router);
+api.use("/api/", router);
 
-export const handler = serverless(api);
+const PORT = process.env.PORT || 8887;
+api.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
