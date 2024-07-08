@@ -2,6 +2,7 @@
   "name": "hello-gautam",
   "version": "1.0.0",
   "main": "index.js",
+  "vercel-build": "npm run vercel-build",
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "start": "node build/server.js"
